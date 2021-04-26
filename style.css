@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Muli', sans-serif;
+    color:white;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 20px;
+    padding: 70px;
+  }
+  h1,h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -.02em;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1{
+    font-size: 39px;
+    line-height: 0.9;
+  }
+  h3{
+    font-size: 13px;
+    line-height: 0.3;
+  }
+  
+  .header-container{
+    display:flex;
+    height:100%;
+    align-items: flex-start;
+  }
+
+  .title .menu-icon{
+    font-size: 18px;
+  }
+
+  .text-container{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      height:100%;
+
+      
+  }
+
+  .first-text, .second-text, .third-text, .fourth-text{
+    border:solid 40px black; 
+  }
+
+  .third-text{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      margin:5px;  
+  }
+
+.fourth-text> button{
+    background-color:black;
+    height: 100%;
+    width:100%;
+    color:white;
+}
+
+
